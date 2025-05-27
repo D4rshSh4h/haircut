@@ -313,7 +313,7 @@ if __name__ == "__main__":
     # - Ginnifer Goodwin (Round)
     # - Lucy Liu (Diamond - though Dlib might struggle with precise diamond features)
 
-    image_path = "C:\\Users\\USER\\Downloads\\square_face.jpg" # <--- IMPORTANT: SET YOUR IMAGE PATH HERE
+    image_path = "Webcam.png" # <--- IMPORTANT: SET YOUR IMAGE PATH HERE
 
     print(f"Analyzing image: {image_path}")
     image, face_rect, landmarks, face_shape = analyzer.analyze_face_from_path(image_path)
